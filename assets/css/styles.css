@@ -1,0 +1,70 @@
+:root {
+    --primary--text--color: #444444;
+}
+
+@font-face {
+    font-family: 'GaramondPremrPro';
+    src: url('../fonts/GaramondPremrPro.otf');
+}
+
+body {
+    font-family: 'GaramondPremrPro';
+    color: var(--primary--text--color);
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.ko--bg {
+    background-image: url('../images/bg.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    padding: 20px 0;
+}
+
+.ko--divider {
+    width: 100%;
+    height: 1px;
+    background-color: #eeeeee;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ko--img--custom {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.width--per--100 {
+    width: 100%;
+}
+
+.border--primary {
+    border: 2px solid #444444;
+}
+
+.border--secondary {
+    /* border: 1px solid #eeeeee; */
+}
+
+.fancybox-image {
+    background-color: #ffffff;
+}
+
+.ko--title {
+    font-weight: bold;
+    font-size: 1.9em;
+}
+
+.ko--credit {
+    border-right: 5px solid #ffde5f;
+    padding-right: 20px;
+}
+
+@media (max-width: 768px) {
+    .ko--img--custom {
+        height: unset;
+    }
+}
